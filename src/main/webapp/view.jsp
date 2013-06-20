@@ -22,5 +22,5 @@
 <liferay-theme:defineObjects />
 
 <c:if test="<%= !themeDisplay.isSignedIn() %>">
-	<iframe src="https://gridlab07.cnaf.infn.it/ajp/test2.php" frameborder="no" width="1" height="1"></iframe>
+	<iframe src="https://portal-se.cnaf.infn.it/ajp/logout.php" frameborder="no" width="1" height="1"></iframe>
 </c:if>
